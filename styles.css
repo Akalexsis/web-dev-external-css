@@ -6,6 +6,7 @@ body {
     font-style: normal;
 }
 
+/* set styles for all elements specifically in nav tag */
 nav {
     display: flex;
     justify-content: center;
@@ -16,11 +17,17 @@ nav {
     padding: 0px;
 }
 
+/* set styles for all elements wrapped in div tag */
 div {
     margin: auto;
     padding: 1rem;
-}
-
-p {
+    color: #02332D;
     font-size: 18px;
 }
+
+h3 {
+    font-size: 26px;
+    color: #AE431E;
+}
+
+a { color: #AE431E;}
